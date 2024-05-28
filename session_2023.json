@@ -1,0 +1,4911 @@
+{
+    "get": "fixtures",
+    "parameters": {
+      "season": "2023",
+      "team": "126"
+    },
+    "errors": [],
+    "results": 72,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "fixture": {
+          "id": 973773,
+          "referee": "Vinicius Gonçalves Dias Araujo",
+          "timezone": "UTC",
+          "date": "2023-01-15T21:30:00+00:00",
+          "timestamp": 1673818200,
+          "periods": {
+            "first": 1673818200,
+            "second": 1673821800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 1"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 7779,
+            "name": "Ituano",
+            "logo": "https://media.api-sports.io/football/teams/7779.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973776,
+          "referee": "Flavio Rodrigues De Souza",
+          "timezone": "UTC",
+          "date": "2023-01-18T22:30:00+00:00",
+          "timestamp": 1674081000,
+          "periods": {
+            "first": 1674081000,
+            "second": 1674084600
+          },
+          "venue": {
+            "id": 5658,
+            "name": "Estádio Doutor Adhemar de Barros",
+            "city": "Araraquara, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 2"
+        },
+        "teams": {
+          "home": {
+            "id": 7826,
+            "name": "Ferroviária",
+            "logo": "https://media.api-sports.io/football/teams/7826.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973788,
+          "referee": "Edina Alves Batista",
+          "timezone": "UTC",
+          "date": "2023-01-22T19:00:00+00:00",
+          "timestamp": 1674414000,
+          "periods": {
+            "first": 1674414000,
+            "second": 1674417600
+          },
+          "venue": {
+            "id": 258,
+            "name": "Allianz Parque",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 3"
+        },
+        "teams": {
+          "home": {
+            "id": 121,
+            "name": "Palmeiras",
+            "logo": "https://media.api-sports.io/football/teams/121.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973797,
+          "referee": "Salim Fende Chavez",
+          "timezone": "UTC",
+          "date": "2023-01-27T00:30:00+00:00",
+          "timestamp": 1674779400,
+          "periods": {
+            "first": 1674779400,
+            "second": 1674783000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 4"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 1214,
+            "name": "Portuguesa",
+            "logo": "https://media.api-sports.io/football/teams/1214.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973805,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-01-29T21:30:00+00:00",
+          "timestamp": 1675027800,
+          "periods": {
+            "first": 1675027800,
+            "second": 1675031400
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 5"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media.api-sports.io/football/teams/131.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973808,
+          "referee": "Douglas Marques das Flores",
+          "timezone": "UTC",
+          "date": "2023-02-05T19:00:00+00:00",
+          "timestamp": 1675623600,
+          "periods": {
+            "first": 1675623600,
+            "second": 1675627200
+          },
+          "venue": {
+            "id": 7045,
+            "name": "Estádio Bruno José Daniel",
+            "city": "Santo André, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 6"
+        },
+        "teams": {
+          "home": {
+            "id": 10003,
+            "name": "Santo André",
+            "logo": "https://media.api-sports.io/football/teams/10003.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973819,
+          "referee": "Luiz Flávio",
+          "timezone": "UTC",
+          "date": "2023-02-08T22:30:00+00:00",
+          "timestamp": 1675895400,
+          "periods": {
+            "first": 1675895400,
+            "second": 1675899000
+          },
+          "venue": {
+            "id": 220,
+            "name": "Estádio Nabi Abi Chedid",
+            "city": "Bragança Paulista, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 7"
+        },
+        "teams": {
+          "home": {
+            "id": 794,
+            "name": "RB Bragantino",
+            "logo": "https://media.api-sports.io/football/teams/794.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973829,
+          "referee": "Flavio Rodrigues De Souza",
+          "timezone": "UTC",
+          "date": "2023-02-12T22:00:00+00:00",
+          "timestamp": 1676239200,
+          "periods": {
+            "first": 1676239200,
+            "second": 1676242800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 8"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 128,
+            "name": "Santos",
+            "logo": "https://media.api-sports.io/football/teams/128.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973837,
+          "referee": "Matheus Delgado Candançan",
+          "timezone": "UTC",
+          "date": "2023-02-16T00:35:00+00:00",
+          "timestamp": 1676507700,
+          "periods": {
+            "first": 1676507700,
+            "second": 1676511300
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 9"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 1201,
+            "name": "Inter De Limeira",
+            "logo": "https://media.api-sports.io/football/teams/1201.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 5,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973844,
+          "referee": "Vinicius Gonçalves Dias Araujo",
+          "timezone": "UTC",
+          "date": "2023-02-21T22:30:00+00:00",
+          "timestamp": 1677018600,
+          "periods": {
+            "first": 1677018600,
+            "second": 1677022200
+          },
+          "venue": {
+            "id": 10541,
+            "name": "Estádio Municipal Walter Ribeiro",
+            "city": "Sorocaba, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 10"
+        },
+        "teams": {
+          "home": {
+            "id": 156,
+            "name": "Sao Bento",
+            "logo": "https://media.api-sports.io/football/teams/156.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 3
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 3
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973853,
+          "referee": "Matheus Delgado Candançan",
+          "timezone": "UTC",
+          "date": "2023-02-25T21:30:00+00:00",
+          "timestamp": 1677360600,
+          "periods": {
+            "first": 1677360600,
+            "second": 1677364200
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 11"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 7865,
+            "name": "São Bernardo",
+            "logo": "https://media.api-sports.io/football/teams/7865.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 973854,
+          "referee": "Edina Alves Batista",
+          "timezone": "UTC",
+          "date": "2023-03-05T19:00:00+00:00",
+          "timestamp": 1678042800,
+          "periods": {
+            "first": 1678042800,
+            "second": 1678046400
+          },
+          "venue": {
+            "id": 219,
+            "name": "Estádio Santa Cruz",
+            "city": "Ribeirão Preto, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 12"
+        },
+        "teams": {
+          "home": {
+            "id": 2618,
+            "name": "Botafogo SP",
+            "logo": "https://media.api-sports.io/football/teams/2618.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 3
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 3
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 991193,
+          "referee": null,
+          "timezone": "UTC",
+          "date": "2023-01-07T00:00:00+00:00",
+          "timestamp": 1673049600,
+          "periods": {
+            "first": 1673049600,
+            "second": 1673053200
+          },
+          "venue": {
+            "id": null,
+            "name": "Centro de Treinamento Frederico Antonio Germano Menzen",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 667,
+          "name": "Friendlies Clubs",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/667.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Club Friendlies 3"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 138,
+            "name": "Guarani Campinas",
+            "logo": "https://media.api-sports.io/football/teams/138.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": null,
+            "away": null
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005650,
+          "referee": "Ramon Abatti",
+          "timezone": "UTC",
+          "date": "2023-04-15T21:30:00+00:00",
+          "timestamp": 1681594200,
+          "periods": {
+            "first": 1681594200,
+            "second": 1681597800
+          },
+          "venue": {
+            "id": 218,
+            "name": "Estádio Nilton Santos",
+            "city": "Rio de Janeiro"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 1"
+        },
+        "teams": {
+          "home": {
+            "id": 120,
+            "name": "Botafogo",
+            "logo": "https://media.api-sports.io/football/teams/120.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005661,
+          "referee": "Wagner do Nascimento Magalhaes",
+          "timezone": "UTC",
+          "date": "2023-04-22T21:30:00+00:00",
+          "timestamp": 1682199000,
+          "periods": {
+            "first": 1682199000,
+            "second": 1682202600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 2"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 125,
+            "name": "America Mineiro",
+            "logo": "https://media.api-sports.io/football/teams/125.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005676,
+          "referee": "Rafael Rodrigo Klein",
+          "timezone": "UTC",
+          "date": "2023-04-29T19:30:00+00:00",
+          "timestamp": 1682796600,
+          "periods": {
+            "first": 1682796600,
+            "second": 1682800200
+          },
+          "venue": {
+            "id": 230,
+            "name": "Estádio Major Antônio Couto Pereira",
+            "city": "Curitiba, Paraná"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 3"
+        },
+        "teams": {
+          "home": {
+            "id": 147,
+            "name": "Coritiba",
+            "logo": "https://media.api-sports.io/football/teams/147.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005681,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-05-07T19:00:00+00:00",
+          "timestamp": 1683486000,
+          "periods": {
+            "first": 1683486000,
+            "second": 1683489600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 4"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 119,
+            "name": "Internacional",
+            "logo": "https://media.api-sports.io/football/teams/119.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005697,
+          "referee": "Paulo Cesar Zanovelli da Silva",
+          "timezone": "UTC",
+          "date": "2023-05-11T23:00:00+00:00",
+          "timestamp": 1683846000,
+          "periods": {
+            "first": 1683846000,
+            "second": 1683849600
+          },
+          "venue": {
+            "id": 225,
+            "name": "Estádio Governador Plácido Aderaldo Castelo",
+            "city": "Fortaleza, Ceará"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 5"
+        },
+        "teams": {
+          "home": {
+            "id": 154,
+            "name": "Fortaleza EC",
+            "logo": "https://media.api-sports.io/football/teams/154.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005702,
+          "referee": "Bruno Arleu de Araujo",
+          "timezone": "UTC",
+          "date": "2023-05-14T19:00:00+00:00",
+          "timestamp": 1684090800,
+          "periods": {
+            "first": 1684090800,
+            "second": 1684094400
+          },
+          "venue": {
+            "id": 11531,
+            "name": "Neo Química Arena",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 6"
+        },
+        "teams": {
+          "home": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media.api-sports.io/football/teams/131.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005711,
+          "referee": "Leandro Vuaden",
+          "timezone": "UTC",
+          "date": "2023-05-20T21:30:00+00:00",
+          "timestamp": 1684618200,
+          "periods": {
+            "first": 1684618200,
+            "second": 1684621800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 7"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 133,
+            "name": "Vasco DA Gama",
+            "logo": "https://media.api-sports.io/football/teams/133.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005721,
+          "referee": "Rafael Rodrigo Klein",
+          "timezone": "UTC",
+          "date": "2023-05-28T00:00:00+00:00",
+          "timestamp": 1685232000,
+          "periods": {
+            "first": 1685232000,
+            "second": 1685235600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 8"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 151,
+            "name": "Goias",
+            "logo": "https://media.api-sports.io/football/teams/151.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005735,
+          "referee": "Wilton Pereira Sampaio",
+          "timezone": "UTC",
+          "date": "2023-06-04T19:00:00+00:00",
+          "timestamp": 1685905200,
+          "periods": {
+            "first": 1685905200,
+            "second": 1685908800
+          },
+          "venue": {
+            "id": 241,
+            "name": "Arena do Grêmio",
+            "city": "Porto Alegre, Rio Grande do Sul"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 9"
+        },
+        "teams": {
+          "home": {
+            "id": 130,
+            "name": "Gremio",
+            "logo": "https://media.api-sports.io/football/teams/130.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005741,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-06-11T19:00:00+00:00",
+          "timestamp": 1686510000,
+          "periods": {
+            "first": 1686510000,
+            "second": 1686513600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 10"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 121,
+            "name": "Palmeiras",
+            "logo": "https://media.api-sports.io/football/teams/121.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005751,
+          "referee": "Sávio Pereira",
+          "timezone": "UTC",
+          "date": "2023-06-21T22:00:00+00:00",
+          "timestamp": 1687384800,
+          "periods": {
+            "first": 1687384800,
+            "second": 1687388400
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 11"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 134,
+            "name": "Atletico Paranaense",
+            "logo": "https://media.api-sports.io/football/teams/134.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005764,
+          "referee": "Ramon Abatti",
+          "timezone": "UTC",
+          "date": "2023-06-25T00:00:00+00:00",
+          "timestamp": 1687651200,
+          "periods": {
+            "first": 1687651200,
+            "second": 1687654800
+          },
+          "venue": {
+            "id": 206,
+            "name": "Estádio Raimundo Sampaio",
+            "city": "Belo Horizonte, Minas Gerais"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 12"
+        },
+        "teams": {
+          "home": {
+            "id": 135,
+            "name": "Cruzeiro",
+            "logo": "https://media.api-sports.io/football/teams/135.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005771,
+          "referee": "Anderson Daronco",
+          "timezone": "UTC",
+          "date": "2023-07-01T19:00:00+00:00",
+          "timestamp": 1688238000,
+          "periods": {
+            "first": 1688238000,
+            "second": 1688241600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 13"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 124,
+            "name": "Fluminense",
+            "logo": "https://media.api-sports.io/football/teams/124.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005783,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-07-09T19:00:00+00:00",
+          "timestamp": 1688929200,
+          "periods": {
+            "first": 1688929200,
+            "second": 1688932800
+          },
+          "venue": {
+            "id": 220,
+            "name": "Estádio Nabi Abi Chedid",
+            "city": "Bragança Paulista, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 14"
+        },
+        "teams": {
+          "home": {
+            "id": 794,
+            "name": "RB Bragantino",
+            "logo": "https://media.api-sports.io/football/teams/794.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005791,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-07-16T19:00:00+00:00",
+          "timestamp": 1689534000,
+          "periods": {
+            "first": 1689534000,
+            "second": 1689537600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 15"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 128,
+            "name": "Santos",
+            "logo": "https://media.api-sports.io/football/teams/128.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005808,
+          "referee": "Bruno Mota Correia",
+          "timezone": "UTC",
+          "date": "2023-07-22T21:30:00+00:00",
+          "timestamp": 1690061400,
+          "periods": {
+            "first": 1690061400,
+            "second": 1690065000
+          },
+          "venue": {
+            "id": 235,
+            "name": "Arena Pantanal",
+            "city": "Cuiabá, Mato Grosso"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 16"
+        },
+        "teams": {
+          "home": {
+            "id": 1193,
+            "name": "Cuiaba",
+            "logo": "https://media.api-sports.io/football/teams/1193.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005811,
+          "referee": "Ramon Abatti",
+          "timezone": "UTC",
+          "date": "2023-07-30T14:00:00+00:00",
+          "timestamp": 1690725600,
+          "periods": {
+            "first": 1690725600,
+            "second": 1690729200
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 17"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 118,
+            "name": "Bahia",
+            "logo": "https://media.api-sports.io/football/teams/118.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005821,
+          "referee": "Rodrigo José Pereira de Lima",
+          "timezone": "UTC",
+          "date": "2023-08-06T19:00:00+00:00",
+          "timestamp": 1691348400,
+          "periods": {
+            "first": 1691348400,
+            "second": 1691352000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 18"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 1062,
+            "name": "Atletico-MG",
+            "logo": "https://media.api-sports.io/football/teams/1062.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005829,
+          "referee": "Rafael Rodrigo Klein",
+          "timezone": "UTC",
+          "date": "2023-08-13T21:30:00+00:00",
+          "timestamp": 1691962200,
+          "periods": {
+            "first": 1691962200,
+            "second": 1691965800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Jornalista Mário Filho",
+            "city": "Rio de Janeiro, Rio de Janeiro"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 19"
+        },
+        "teams": {
+          "home": {
+            "id": 127,
+            "name": "Flamengo",
+            "logo": "https://media.api-sports.io/football/teams/127.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005841,
+          "referee": "Ramon Abatti",
+          "timezone": "UTC",
+          "date": "2023-08-19T19:00:00+00:00",
+          "timestamp": 1692471600,
+          "periods": {
+            "first": 1692471600,
+            "second": 1692475200
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 20"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 120,
+            "name": "Botafogo",
+            "logo": "https://media.api-sports.io/football/teams/120.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005858,
+          "referee": "Rodrigo José Pereira de Lima",
+          "timezone": "UTC",
+          "date": "2023-08-27T19:00:00+00:00",
+          "timestamp": 1693162800,
+          "periods": {
+            "first": 1693162800,
+            "second": 1693166400
+          },
+          "venue": {
+            "id": 206,
+            "name": "Estádio Raimundo Sampaio",
+            "city": "Belo Horizonte, Minas Gerais"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 21"
+        },
+        "teams": {
+          "home": {
+            "id": 125,
+            "name": "America Mineiro",
+            "logo": "https://media.api-sports.io/football/teams/125.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005861,
+          "referee": "Sávio Pereira",
+          "timezone": "UTC",
+          "date": "2023-09-27T22:00:00+00:00",
+          "timestamp": 1695852000,
+          "periods": {
+            "first": 1695852000,
+            "second": 1695855600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 22"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 147,
+            "name": "Coritiba",
+            "logo": "https://media.api-sports.io/football/teams/147.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005875,
+          "referee": "Paulo Cesar Zanovelli da Silva",
+          "timezone": "UTC",
+          "date": "2023-09-14T00:30:00+00:00",
+          "timestamp": 1694651400,
+          "periods": {
+            "first": 1694651400,
+            "second": 1694655000
+          },
+          "venue": {
+            "id": 244,
+            "name": "Estádio José Pinheiro Borda",
+            "city": "Porto Alegre, Rio Grande do Sul"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 23"
+        },
+        "teams": {
+          "home": {
+            "id": 119,
+            "name": "Internacional",
+            "logo": "https://media.api-sports.io/football/teams/119.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005881,
+          "referee": "Yuri Elino Ferreira da Cruz",
+          "timezone": "UTC",
+          "date": "2023-09-21T00:30:00+00:00",
+          "timestamp": 1695256200,
+          "periods": {
+            "first": 1695256200,
+            "second": 1695259800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 24"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 154,
+            "name": "Fortaleza EC",
+            "logo": "https://media.api-sports.io/football/teams/154.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005891,
+          "referee": "Flavio Rodrigues De Souza",
+          "timezone": "UTC",
+          "date": "2023-09-30T21:30:00+00:00",
+          "timestamp": 1696109400,
+          "periods": {
+            "first": 1696109400,
+            "second": 1696113000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 25"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media.api-sports.io/football/teams/131.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005900,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-10-07T21:30:00+00:00",
+          "timestamp": 1696714200,
+          "periods": {
+            "first": 1696714200,
+            "second": 1696717800
+          },
+          "venue": {
+            "id": 19377,
+            "name": "Estádio São Januário",
+            "city": "Rio de Janeiro, Rio de Janeiro"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 26"
+        },
+        "teams": {
+          "home": {
+            "id": 133,
+            "name": "Vasco DA Gama",
+            "logo": "https://media.api-sports.io/football/teams/133.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005913,
+          "referee": "Rodrigo José Pereira de Lima",
+          "timezone": "UTC",
+          "date": "2023-10-19T00:30:00+00:00",
+          "timestamp": 1697675400,
+          "periods": {
+            "first": 1697675400,
+            "second": 1697679000
+          },
+          "venue": {
+            "id": 240,
+            "name": "Estádio de Hailé Pinheiro",
+            "city": "Goiânia, Goiás"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 27"
+        },
+        "teams": {
+          "home": {
+            "id": 151,
+            "name": "Goias",
+            "logo": "https://media.api-sports.io/football/teams/151.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005921,
+          "referee": "André Luiz",
+          "timezone": "UTC",
+          "date": "2023-10-21T21:30:00+00:00",
+          "timestamp": 1697923800,
+          "periods": {
+            "first": 1697923800,
+            "second": 1697927400
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 28"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 130,
+            "name": "Gremio",
+            "logo": "https://media.api-sports.io/football/teams/130.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005931,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-10-25T23:00:00+00:00",
+          "timestamp": 1698274800,
+          "periods": {
+            "first": 1698274800,
+            "second": 1698278400
+          },
+          "venue": {
+            "id": 258,
+            "name": "Allianz Parque",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 29"
+        },
+        "teams": {
+          "home": {
+            "id": 121,
+            "name": "Palmeiras",
+            "logo": "https://media.api-sports.io/football/teams/121.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 3,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 5,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005946,
+          "referee": "Rafael Rodrigo Klein",
+          "timezone": "UTC",
+          "date": "2023-10-29T19:00:00+00:00",
+          "timestamp": 1698606000,
+          "periods": {
+            "first": 1698606000,
+            "second": 1698609600
+          },
+          "venue": {
+            "id": null,
+            "name": "Ligga Arena",
+            "city": "Curitiba, Paraná"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 30"
+        },
+        "teams": {
+          "home": {
+            "id": 134,
+            "name": "Atletico Paranaense",
+            "logo": "https://media.api-sports.io/football/teams/134.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005951,
+          "referee": "Wilton Pereira Sampaio",
+          "timezone": "UTC",
+          "date": "2023-11-02T23:00:00+00:00",
+          "timestamp": 1698966000,
+          "periods": {
+            "first": 1698966000,
+            "second": 1698969600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 31"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 135,
+            "name": "Cruzeiro",
+            "logo": "https://media.api-sports.io/football/teams/135.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005959,
+          "referee": "André Luiz",
+          "timezone": "UTC",
+          "date": "2023-11-23T00:30:00+00:00",
+          "timestamp": 1700699400,
+          "periods": {
+            "first": 1700699400,
+            "second": 1700703000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Jornalista Mário Filho",
+            "city": "Rio de Janeiro, Rio de Janeiro"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 32"
+        },
+        "teams": {
+          "home": {
+            "id": 124,
+            "name": "Fluminense",
+            "logo": "https://media.api-sports.io/football/teams/124.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005971,
+          "referee": "Flavio Rodrigues De Souza",
+          "timezone": "UTC",
+          "date": "2023-11-08T23:00:00+00:00",
+          "timestamp": 1699484400,
+          "periods": {
+            "first": 1699484400,
+            "second": 1699488000
+          },
+          "venue": {
+            "id": 10494,
+            "name": "Estádio Urbano Caldeira",
+            "city": "Santos, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 33"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 794,
+            "name": "RB Bragantino",
+            "logo": "https://media.api-sports.io/football/teams/794.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005982,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-11-12T21:30:00+00:00",
+          "timestamp": 1699824600,
+          "periods": {
+            "first": 1699824600,
+            "second": 1699828200
+          },
+          "venue": {
+            "id": 10494,
+            "name": "Estádio Urbano Caldeira",
+            "city": "Santos, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 34"
+        },
+        "teams": {
+          "home": {
+            "id": 128,
+            "name": "Santos",
+            "logo": "https://media.api-sports.io/football/teams/128.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1005991,
+          "referee": "Paulo Cesar Zanovelli da Silva",
+          "timezone": "UTC",
+          "date": "2023-11-26T21:30:00+00:00",
+          "timestamp": 1701034200,
+          "periods": {
+            "first": 1701034200,
+            "second": 1701037800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 35"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 1193,
+            "name": "Cuiaba",
+            "logo": "https://media.api-sports.io/football/teams/1193.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1006007,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-11-29T23:00:00+00:00",
+          "timestamp": 1701298800,
+          "periods": {
+            "first": 1701298800,
+            "second": 1701302400
+          },
+          "venue": {
+            "id": 216,
+            "name": "Arena Fonte Nova",
+            "city": "Salvador, Bahia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 36"
+        },
+        "teams": {
+          "home": {
+            "id": 118,
+            "name": "Bahia",
+            "logo": "https://media.api-sports.io/football/teams/118.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1006014,
+          "referee": "Sávio Pereira",
+          "timezone": "UTC",
+          "date": "2023-12-03T00:00:00+00:00",
+          "timestamp": 1701561600,
+          "periods": {
+            "first": 1701561600,
+            "second": 1701565200
+          },
+          "venue": {
+            "id": 234,
+            "name": "Estádio Governador Magalhães Pinto",
+            "city": "Belo Horizonte, Minas Gerais"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 37"
+        },
+        "teams": {
+          "home": {
+            "id": 1062,
+            "name": "Atletico-MG",
+            "logo": "https://media.api-sports.io/football/teams/1062.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1006021,
+          "referee": "Caio Max Augusto Vieira",
+          "timezone": "UTC",
+          "date": "2023-12-07T00:30:00+00:00",
+          "timestamp": 1701909000,
+          "periods": {
+            "first": 1701909000,
+            "second": 1701912600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 71,
+          "name": "Serie A",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/71.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Regular Season - 38"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 127,
+            "name": "Flamengo",
+            "logo": "https://media.api-sports.io/football/teams/127.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1012147,
+          "referee": "Vinicius Gonçalves Dias Araujo",
+          "timezone": "UTC",
+          "date": "2023-03-13T23:00:00+00:00",
+          "timestamp": 1678748400,
+          "periods": {
+            "first": 1678748400,
+            "second": 1678752000
+          },
+          "venue": {
+            "id": 258,
+            "name": "Allianz Parque",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "PEN",
+            "elapsed": 120
+          }
+        },
+        "league": {
+          "id": 475,
+          "name": "Paulista - A1",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/475.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Quarter-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 10018,
+            "name": "Água Santa",
+            "logo": "https://media.api-sports.io/football/teams/10018.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalty": {
+            "home": 5,
+            "away": 6
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019397,
+          "referee": "E. Ostojich",
+          "timezone": "UTC",
+          "date": "2023-04-07T00:00:00+00:00",
+          "timestamp": 1680825600,
+          "periods": {
+            "first": 1680825600,
+            "second": 1680829200
+          },
+          "venue": {
+            "id": 112,
+            "name": "Estadio José Dellagiovanna",
+            "city": "San Fernando, Provincia de Buenos Aires"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 1"
+        },
+        "teams": {
+          "home": {
+            "id": 452,
+            "name": "Tigre",
+            "logo": "https://media.api-sports.io/football/teams/452.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019404,
+          "referee": "I. Méndez",
+          "timezone": "UTC",
+          "date": "2023-04-19T00:30:00+00:00",
+          "timestamp": 1681864200,
+          "periods": {
+            "first": 1681864200,
+            "second": 1681867800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 2"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 2827,
+            "name": "Puerto Cabello",
+            "logo": "https://media.api-sports.io/football/teams/2827.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019416,
+          "referee": "F. González",
+          "timezone": "UTC",
+          "date": "2023-05-02T22:00:00+00:00",
+          "timestamp": 1683064800,
+          "periods": {
+            "first": 1683064800,
+            "second": 1683068400
+          },
+          "venue": {
+            "id": 375,
+            "name": "Estadio Manuel Murillo Toro",
+            "city": "Ibagué"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 3"
+        },
+        "teams": {
+          "home": {
+            "id": 1142,
+            "name": "Deportes Tolima",
+            "logo": "https://media.api-sports.io/football/teams/1142.png",
+            "winner": null
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019436,
+          "referee": "B. Loayza",
+          "timezone": "UTC",
+          "date": "2023-05-24T00:30:00+00:00",
+          "timestamp": 1684888200,
+          "periods": {
+            "first": 1684888200,
+            "second": 1684891800
+          },
+          "venue": {
+            "id": 1654,
+            "name": "Estadio Polideportivo Misael Delgado",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 4"
+        },
+        "teams": {
+          "home": {
+            "id": 2827,
+            "name": "Puerto Cabello",
+            "logo": "https://media.api-sports.io/football/teams/2827.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019460,
+          "referee": "L. González",
+          "timezone": "UTC",
+          "date": "2023-06-08T22:00:00+00:00",
+          "timestamp": 1686261600,
+          "periods": {
+            "first": 1686261600,
+            "second": 1686265200
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 5"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 1142,
+            "name": "Deportes Tolima",
+            "logo": "https://media.api-sports.io/football/teams/1142.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 3,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 5,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019466,
+          "referee": "G. Guerrero",
+          "timezone": "UTC",
+          "date": "2023-06-28T00:30:00+00:00",
+          "timestamp": 1687912200,
+          "periods": {
+            "first": 1687912200,
+            "second": 1687915800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Group Stage - 6"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 452,
+            "name": "Tigre",
+            "logo": "https://media.api-sports.io/football/teams/452.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019771,
+          "referee": "Caio Max Augusto Vieira",
+          "timezone": "UTC",
+          "date": "2023-04-12T00:30:00+00:00",
+          "timestamp": 1681259400,
+          "periods": {
+            "first": 1681259400,
+            "second": 1681263000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "3rd Round"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 7779,
+            "name": "Ituano",
+            "logo": "https://media.api-sports.io/football/teams/7779.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1019772,
+          "referee": "Anderson Daronco",
+          "timezone": "UTC",
+          "date": "2023-04-26T00:30:00+00:00",
+          "timestamp": 1682469000,
+          "periods": {
+            "first": 1682469000,
+            "second": 1682472600
+          },
+          "venue": {
+            "id": 5632,
+            "name": "Estádio Municipal Dr. Novelli Júnior",
+            "city": "Itu, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "3rd Round"
+        },
+        "teams": {
+          "home": {
+            "id": 7779,
+            "name": "Ituano",
+            "logo": "https://media.api-sports.io/football/teams/7779.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1025089,
+          "referee": "Wilton Pereira Sampaio",
+          "timezone": "UTC",
+          "date": "2023-05-17T23:00:00+00:00",
+          "timestamp": 1684364400,
+          "periods": {
+            "first": 1684364400,
+            "second": 1684368000
+          },
+          "venue": {
+            "id": 276,
+            "name": "Estádio Adelmar da Costa Carvalho",
+            "city": "Recife, Pernambuco"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Round of 16"
+        },
+        "teams": {
+          "home": {
+            "id": 123,
+            "name": "Sport Recife",
+            "logo": "https://media.api-sports.io/football/teams/123.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1025090,
+          "referee": "Wagner do Nascimento Magalhaes",
+          "timezone": "UTC",
+          "date": "2023-06-01T22:30:00+00:00",
+          "timestamp": 1685658600,
+          "periods": {
+            "first": 1685658600,
+            "second": 1685662200
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "PEN",
+            "elapsed": 120
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Round of 16"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 123,
+            "name": "Sport Recife",
+            "logo": "https://media.api-sports.io/football/teams/123.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 3
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 3
+          },
+          "extratime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalty": {
+            "home": 5,
+            "away": 3
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1030896,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-07-05T22:30:00+00:00",
+          "timestamp": 1688596200,
+          "periods": {
+            "first": 1688596200,
+            "second": 1688599800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Quarter-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 121,
+            "name": "Palmeiras",
+            "logo": "https://media.api-sports.io/football/teams/121.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1030897,
+          "referee": "Anderson Daronco",
+          "timezone": "UTC",
+          "date": "2023-07-13T23:00:00+00:00",
+          "timestamp": 1689289200,
+          "periods": {
+            "first": 1689289200,
+            "second": 1689292800
+          },
+          "venue": {
+            "id": 258,
+            "name": "Allianz Parque",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Quarter-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 121,
+            "name": "Palmeiras",
+            "logo": "https://media.api-sports.io/football/teams/121.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1073826,
+          "referee": "Wilton Pereira Sampaio",
+          "timezone": "UTC",
+          "date": "2023-07-26T00:30:00+00:00",
+          "timestamp": 1690331400,
+          "periods": {
+            "first": 1690331400,
+            "second": 1690335000
+          },
+          "venue": {
+            "id": 11531,
+            "name": "Neo Química Arena",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Semi-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media.api-sports.io/football/teams/131.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1073827,
+          "referee": "Raphael Claus",
+          "timezone": "UTC",
+          "date": "2023-08-16T22:30:00+00:00",
+          "timestamp": 1692225000,
+          "periods": {
+            "first": 1692225000,
+            "second": 1692228600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Semi-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media.api-sports.io/football/teams/131.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1081842,
+          "referee": "W. Roldán",
+          "timezone": "UTC",
+          "date": "2023-08-03T22:00:00+00:00",
+          "timestamp": 1691100000,
+          "periods": {
+            "first": 1691100000,
+            "second": 1691103600
+          },
+          "venue": {
+            "id": 103,
+            "name": "Estadio Pedro Bidegaín",
+            "city": "Capital Federal, Ciudad de Buenos Aires"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Round of 16"
+        },
+        "teams": {
+          "home": {
+            "id": 460,
+            "name": "San Lorenzo",
+            "logo": "https://media.api-sports.io/football/teams/460.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1081843,
+          "referee": "E. Ostojich",
+          "timezone": "UTC",
+          "date": "2023-08-10T22:00:00+00:00",
+          "timestamp": 1691704800,
+          "periods": {
+            "first": 1691704800,
+            "second": 1691708400
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Round of 16"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          },
+          "away": {
+            "id": 460,
+            "name": "San Lorenzo",
+            "logo": "https://media.api-sports.io/football/teams/460.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1115600,
+          "referee": "J. Ospina",
+          "timezone": "UTC",
+          "date": "2023-08-24T22:00:00+00:00",
+          "timestamp": 1692914400,
+          "periods": {
+            "first": 1692914400,
+            "second": 1692918000
+          },
+          "venue": {
+            "id": 471,
+            "name": "Estadio Rodrigo Paz Delgado",
+            "city": "Quito"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Quarter-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 1158,
+            "name": "LDU de Quito",
+            "logo": "https://media.api-sports.io/football/teams/1158.png",
+            "winner": true
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1115601,
+          "referee": "A. Herrera",
+          "timezone": "UTC",
+          "date": "2023-08-31T22:00:00+00:00",
+          "timestamp": 1693519200,
+          "periods": {
+            "first": 1693519200,
+            "second": 1693522800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "PEN",
+            "elapsed": 120
+          }
+        },
+        "league": {
+          "id": 11,
+          "name": "CONMEBOL Sudamericana",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/11.png",
+          "flag": null,
+          "season": 2023,
+          "round": "Quarter-finals"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": false
+          },
+          "away": {
+            "id": 1158,
+            "name": "LDU de Quito",
+            "logo": "https://media.api-sports.io/football/teams/1158.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalty": {
+            "home": 4,
+            "away": 5
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1124991,
+          "referee": "Anderson Daronco",
+          "timezone": "UTC",
+          "date": "2023-09-17T19:00:00+00:00",
+          "timestamp": 1694977200,
+          "periods": {
+            "first": 1694977200,
+            "second": 1694980800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Jornalista Mário Filho",
+            "city": "Rio de Janeiro, Rio de Janeiro"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Final"
+        },
+        "teams": {
+          "home": {
+            "id": 127,
+            "name": "Flamengo",
+            "logo": "https://media.api-sports.io/football/teams/127.png",
+            "winner": false
+          },
+          "away": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1124992,
+          "referee": "Braulio da Silva Machado",
+          "timezone": "UTC",
+          "date": "2023-09-24T19:00:00+00:00",
+          "timestamp": 1695582000,
+          "periods": {
+            "first": 1695582000,
+            "second": 1695585600
+          },
+          "venue": {
+            "id": null,
+            "name": "Estádio Cícero Pompeu de Toledo",
+            "city": "São Paulo, São Paulo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 73,
+          "name": "Copa Do Brasil",
+          "country": "Brazil",
+          "logo": "https://media.api-sports.io/football/leagues/73.png",
+          "flag": "https://media.api-sports.io/flags/br.svg",
+          "season": 2023,
+          "round": "Final"
+        },
+        "teams": {
+          "home": {
+            "id": 126,
+            "name": "Sao Paulo",
+            "logo": "https://media.api-sports.io/football/teams/126.png",
+            "winner": null
+          },
+          "away": {
+            "id": 127,
+            "name": "Flamengo",
+            "logo": "https://media.api-sports.io/football/teams/127.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ]
+  }
