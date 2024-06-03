@@ -1,6 +1,10 @@
 import streamlit as st
-from utils.filtro import get_monta_filtro
-from service.jogos import get_kpi
+from utils.filtro import get_monta_filtro, get_filtro
+from service.jogos import get_indicadores, get_dataframe
+from models.jogos import Jogos
+
+jogos = Jogos()
+df_jogos = get_dataframe(jogos)
 
 # page configuration
 st.set_page_config(
@@ -12,13 +16,33 @@ st.set_page_config(
 # create a sidebar
 with st.sidebar:
     st.title('Estatísticas do São Paulo')
+
+    temporadas = df_jogos["Temporada"].unique().tolist()
+    temporadas.insert(0, 'Todas')
+    temporada = st.selectbox('Informe a temporada', temporadas, index=0)
+
+    torneios = df_jogos["Torneio"].unique().tolist()
+    torneios.insert(0, 'Todos')
+    torneio = st.selectbox('Informe o torneio', torneios, index=0)
     
-    # Input field for stock symbol
-    torneio = st.selectbox('Informe o torneio', ["Campeonato Paulista","Supercopa","Libertadores", "Brasileirão", "Copa do Brasil", "Todos"], index=5)
-    tecnico = st.selectbox('Informe o técnico', ["Carpini","Milton Cruz","Zubeldia", "Todos"], index=3)
+    tecnicos = df_jogos["Técnico"].unique().tolist()
+    tecnicos.insert(0, 'Todos')
+    tecnico = st.selectbox('Informe o técnico', tecnicos, index=0)
+
     local = st.multiselect('Informe o local do Jogo', ["Casa","Fora"],["Casa","Fora"])
 
-indicadores = get_kpi(get_monta_filtro(local,torneio,tecnico))
+    # https://medium.com/horadecodar/como-usar-o-query-do-pandas-fdf4a00727dc (query pandas)
+    df_filtro = get_filtro(temporada, torneio, tecnico, local)
+
+    print('Filtro: ',df_filtro)
+    # if len(df_filtro) > 0:
+    #     novo = df_jogos.query(df_filtro) 
+    #     print(novo)        
+    # else:
+    #     print(df_jogos.head())
+
+
+indicadores = get_indicadores(df_filtro, df_jogos)
 
 #######################
 # Dashboard Main Panel

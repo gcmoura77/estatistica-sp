@@ -9,7 +9,7 @@ class Jogos(Model):
     torneio = F.TextField("Torneio")
     data_jogo = F.DatetimeField("Data do Jogo")
     avaliacao = F.RatingField("Avaliação")
-    tecnico = F.SelectField("Ténico")
+    tecnico = F.SelectField("Técnico")
     pontos = F.NumberField("Pontos")
 
     class Meta:
@@ -19,4 +19,5 @@ class Jogos(Model):
         @staticmethod
         def api_key():
             return get_secret()
+
         
