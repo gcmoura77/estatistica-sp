@@ -10,6 +10,7 @@ class Jogos(Model):
     data_jogo = F.DatetimeField("Data do Jogo")
     avaliacao = F.RatingField("Avaliação")
     tecnico = F.SelectField("Técnico")
+    resultado = F.SelectField("Resultado")
     pontos = F.NumberField("Pontos")
 
     class Meta:

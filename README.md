@@ -17,3 +17,7 @@ main.py
 ## Referência para API do Airtable
 
 https://pyairtable.readthedocs.io/en/stable/api.html#api-pyairtable
+
+## Streamlit Shadcn UI
+https://shadcn.streamlit.app/
+pip install streamlit-shadcn-ui

@@ -20,19 +20,4 @@ def get_filtro(temporada, torneio, tecnico, local):
         df_filtro = filtro_aux if len(df_filtro) == 0 else df_filtro + ' & ' + filtro_aux
     
     return df_filtro
-
-def get_monta_filtro(local, torneio, tecnico, temporada):
-    # monta o filtro dos dados
-    filtro = {}
-    if len(local) == 1:
-        filtro["Local"] = local[0]
-
-    if torneio != "Todos":
-        filtro["Torneio"] = torneio
-
-    if tecnico != "Todos":
-        filtro["Técnico"] = tecnico
-
-    # if temporada != "Todas":
-
-    return match(filtro) 
+ 
