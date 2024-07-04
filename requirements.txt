@@ -107,7 +107,7 @@ streamlit-vertical-slider==2.5.5
 tenacity==8.3.0
 toml==0.10.2
 toolz==0.12.1
-tornado==6.4
+tornado==6.4.1
 tqdm==4.66.4
 traitlets==5.14.3
 typeguard==4.3.0
