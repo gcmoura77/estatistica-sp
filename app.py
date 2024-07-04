@@ -43,6 +43,8 @@ indicadores = get_indicadores(df_filtrado)
 
 linha1 = st.columns(3, gap='medium')
 linha2 = st.columns(2, gap='medium')
+titulo = st.columns(1)
+linha3 = st.columns(5, gap='medium')
 
 import streamlit_shadcn_ui as ui
 
@@ -58,16 +60,41 @@ with linha1[2]:
     # st.metric(label="Aproveitamento", value=str(indicadores["Aproveitamento"])+'%')
     ui.metric_card(title="Aproveitamento", content=str(indicadores["Aproveitamento"])+'%', key="card3")
 
-
-
 with linha2[0]:
     # st.metric(label="Vitórias", value = indicadores["Vitórias"])
     st.subheader("Desempenho dos Jogos")
     resultados = df_filtrado.groupby(["Resultado"]).size()
-    st.bar_chart(resultados)
+    st.bar_chart(resultados,color="#FF0000")
 
 with linha2[1]:
-    st.subheader("Locais das Partidas")
-    resultados = df_filtrado.groupby(["Local"]).size()
-    st.bar_chart(resultados)
+    st.subheader("Notas dos Jogos")
+    avaliacao = df_filtrado.groupby(["Avaliação"]).size()
+    st.bar_chart(avaliacao,color="#000000")
+
+with titulo[0]:
+    st.subheader("Últimos resultados")    
+    
+lista = []
+cor = []
+for result in df_filtrado.sort_values(by='Data_do_Jogo').iloc[-5:]["Resultado"]:
+    lista.insert(0,result[0])
+    if result[0] == 'V':
+        cor.insert(0, 'bg-green-500 text-white inline-flex ')
+    elif result[0] == 'E':
+        cor.insert(0,'bg-black text-white inline-flex')
+    else:
+        cor.insert(0,'bg-red-500 text-white inline-flex')
+
+import streamlit_shadcn_ui as ui
+
+with linha3[0]:
+    ui.button(lista[0], key="item_1", class_name=cor[0])
+with linha3[1]:
+    ui.button(lista[1], key="item_2", class_name=cor[1])
+with linha3[2]:
+    ui.button(lista[2], key="item_3", class_name=cor[2])
+with linha3[3]:
+    ui.button(lista[3], key="item_4", class_name=cor[3])
+with linha3[4]:
+    ui.button(lista[4], key="item_5", class_name=cor[4])
 
