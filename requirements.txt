@@ -81,7 +81,7 @@ PyWavelets==1.6.0
 PyYAML==6.0.1
 pyzmq==26.0.3
 referencing==0.35.1
-requests==2.31.0
+requests==2.32.2
 rich==13.7.1
 rpds-py==0.18.1
 scipy==1.13.1
@@ -121,3 +121,4 @@ wcwidth==0.2.13
 wordcloud==1.9.3
 ydata-profiling==4.8.3
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
