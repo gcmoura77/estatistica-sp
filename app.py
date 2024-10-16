@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit_shadcn_ui as ui
+from datetime import datetime
 from utils.filtro import get_filtro
 from service.jogos import get_indicadores, get_dataframe, get_filtered_dataframe
 from models.jogos import Jogos
@@ -41,27 +43,36 @@ indicadores = get_indicadores(df_filtrado)
 #######################
 # Dashboard Main Panel
 
-linha1 = st.columns(3, gap='medium')
+linha1 = st.columns(5, gap='small')
 linha2 = st.columns(2, gap='medium')
 titulo = st.columns(1)
 linha3 = st.columns(5, gap='medium')
 
-import streamlit_shadcn_ui as ui
+primeira_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[0]["Data_do_Jogo"]
+ultima_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[-1]["Data_do_Jogo"]
+quantidade_dias = abs((ultima_data - primeira_data).days)
+jogos_dias = round(quantidade_dias/indicadores["Total de Jogos"],2)
 
 with linha1[0]:
-    # st.metric(label="Total de Jogos", value=indicadores["Total de Jogos"])
-    ui.metric_card(title="Total de Jogos", content=indicadores["Total de Jogos"], key="card1")
+    ui.metric_card(title="Total de Jogos", content=indicadores["Total de Jogos"], description="1 jogo a cada "+str(jogos_dias)+" dias", key="card1")
+
 
 with linha1[1]:
-    # st.metric(label="Pontos Ganhos", value=indicadores["Pontos Ganhos"])
-    ui.metric_card(title="Pontos Ganhos", content=str(indicadores["Pontos Ganhos"]), key="card2")
+    pontos_por_jogo = indicadores["Pontos Ganhos"]/indicadores["Total de Jogos"]
+    ui.metric_card(title="Pontos Ganhos", content=str(indicadores["Pontos Ganhos"]), description=str(round(pontos_por_jogo,2))+" pontos/jogo", key="card2")
     
 with linha1[2]:
-    # st.metric(label="Aproveitamento", value=str(indicadores["Aproveitamento"])+'%')
     ui.metric_card(title="Aproveitamento", content=str(indicadores["Aproveitamento"])+'%', key="card3")
 
+with linha1[3]:
+    gols_por_jogo = indicadores["Gols_Feitos"]/indicadores["Total de Jogos"]
+    ui.metric_card(title="Gols Feitos", content=str(indicadores["Gols_Feitos"]), description=str(round(gols_por_jogo,2))+" gols/jogo", key="card4")
+
+with linha1[4]:
+    gols_por_jogo = indicadores["Gols_Sofridos"]/indicadores["Total de Jogos"]
+    ui.metric_card(title="Gols Sofridos", content=str(indicadores["Gols_Sofridos"]), description=str(round(gols_por_jogo,2))+" gols/jogo", key="card5")
+
 with linha2[0]:
-    # st.metric(label="Vitórias", value = indicadores["Vitórias"])
     st.subheader("Desempenho dos Jogos")
     resultados = df_filtrado.groupby(["Resultado"]).size()
     st.bar_chart(resultados,color="#FF0000")
@@ -74,27 +85,23 @@ with linha2[1]:
 with titulo[0]:
     st.subheader("Últimos resultados")    
     
-lista = []
-cor = []
-for result in df_filtrado.sort_values(by='Data_do_Jogo').iloc[-5:]["Resultado"]:
-    lista.insert(0,result[0])
-    if result[0] == 'V':
-        cor.insert(0, 'bg-green-500 text-white inline-flex ')
-    elif result[0] == 'E':
-        cor.insert(0,'bg-black text-white inline-flex')
+item = 4
+for index, row in df_filtrado.sort_values(by='Data_do_Jogo').iloc[-5:].iterrows():
+    if row['Local'] == 'Casa':
+        descricao_jogo = 'São Paulo ' + str(row["Gols_Pró"]) + ' x ' + str(row["Gols_Contra"]) + ' ' + row['Adversário']
     else:
-        cor.insert(0,'bg-red-500 text-white inline-flex')
-
-import streamlit_shadcn_ui as ui
-
-with linha3[0]:
-    ui.button(lista[0], key="item_1", class_name=cor[0])
-with linha3[1]:
-    ui.button(lista[1], key="item_2", class_name=cor[1])
-with linha3[2]:
-    ui.button(lista[2], key="item_3", class_name=cor[2])
-with linha3[3]:
-    ui.button(lista[3], key="item_4", class_name=cor[3])
-with linha3[4]:
-    ui.button(lista[4], key="item_5", class_name=cor[4])
+        descricao_jogo = row['Adversário'] + ' ' + str(row["Gols_Contra"]) + ' x ' +  str(row["Gols_Pró"]) + ' São Paulo'
+    
+    if row["Resultado"] == 'Vitória':
+        cor = 'bg-green-500 text-white inline-flex '
+    elif row["Resultado"] == 'Empate':
+        cor = 'bg-black text-white inline-flex'
+    else:
+        cor = 'bg-red-500 text-white inline-flex'
+    
+    with linha3[item]:
+        ui.button(row["Resultado"][0], key="item_"+str(item), class_name=cor)
+        st.caption(descricao_jogo)
+    
+    item = item - 1
 

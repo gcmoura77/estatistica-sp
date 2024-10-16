@@ -1,0 +1,33 @@
+
+streamlit run app.py
+
+git add .
+git commit -m "adicionando novos indicadores e estrututura nova de pastas"
+git push -u origin main
+
+export AIRTABLE_API_KEY=patmZ5FF3ytglUmc0.30b8bdd90d36dba44110c9351fb9ebdd602666e9b3ba8e5d96475c13ae8d4b79
+export API_FOOTBALL_KEY=5120fcb9c7msha0c848c2940b2edp14b94ejsnd94949c64196
+
+
+https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
+
+https://estatistica-sp.streamlit.app/
+
+https://pyairtable.readthedocs.io/en/stable/api.html#module-pyairtable.formulas
+
+TO-DO:
+======
+- Média de avaliação dos jogos
+- Pegar dados de temporadas anteriores a 2023
+- Gráficos de desempenho por torneio
+- % de jogos que fez gol
+- % de jogos que marcou gol
+- Máximo de jogos com vitórias consecutivas
+- Máximo de jogos sm vencer
+- máximo de jogos com derrotas consecutivas
+- máximo de jogos de invencibilidade
+
+DONE:
+=====
+- Gols Feitos e Gols Sofridos (gols por jogo) (OK)
+- Últimos resultdos colocar o resultado do jogo no Hint (OK)

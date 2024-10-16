@@ -37,5 +37,7 @@ def get_indicadores(df_jogos):
     indicadores["Derrotas"] = len(df_jogos.loc[df_jogos["Resultado"] == "Derrota"])
     indicadores['Empates'] = len(df_jogos.loc[df_jogos["Resultado"] == "Empate"])
     indicadores['Aproveitamento'] = aproveitamento
-
+    indicadores['Gols_Feitos'] = df_jogos["Gols_Pró"].sum()
+    indicadores['Gols_Sofridos'] = df_jogos["Gols_Contra"].sum()
+    
     return indicadores
