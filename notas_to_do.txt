@@ -26,6 +26,10 @@ TO-DO:
 - Máximo de jogos sm vencer
 - máximo de jogos com derrotas consecutivas
 - máximo de jogos de invencibilidade
+- Apresentação gráfica de comparação do desempenho de últimos x técnicos
+- Comparativo entre aproveitamento dos jogos em casa e fora 
+- Relação entre Resultado e Notas
+- Relação entre Jogos em Casa e avaliação
 
 DONE:
 =====
