@@ -26,11 +26,11 @@ with st.sidebar:
     temporadas.insert(0, 'Todas')
     temporada = st.selectbox('Informe a temporada', temporadas, index=0)
 
-    torneios = df_jogos["Torneio"].unique().tolist()
+    torneios = sorted(df_jogos["Torneio"].unique().tolist())
     torneios.insert(0, 'Todos')
     torneio = st.selectbox('Informe o torneio', torneios, index=0)
     
-    tecnicos = df_jogos["Técnico"].unique().tolist()
+    tecnicos = sorted(df_jogos["Técnico"].unique().tolist())
     tecnicos.insert(0, 'Todos')
     tecnico = st.selectbox('Informe o técnico', tecnicos, index=0)
 
