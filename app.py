@@ -22,7 +22,7 @@ with st.sidebar:
     st.title('Estatísticas do São Paulo')
     # st.image('https://media.api-sports.io/football/teams/126.png',)
     
-    temporadas = df_jogos["Temporada"].unique().tolist()
+    temporadas = sorted(df_jogos["Temporada"].unique().tolist(), reverse=True)
     temporadas.insert(0, 'Todas')
     temporada = st.selectbox('Informe a temporada', temporadas, index=0)
 

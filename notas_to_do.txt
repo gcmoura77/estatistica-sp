@@ -30,6 +30,7 @@ TO-DO:
 - Comparativo entre aproveitamento dos jogos em casa e fora 
 - Relação entre Resultado e Notas
 - Relação entre Jogos em Casa e avaliação
+- Histograma de Gols do São Paulo
 
 DONE:
 =====

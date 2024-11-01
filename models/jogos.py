@@ -21,4 +21,22 @@ class Jogos(Model):
         def api_key():
             return get_secret()
 
-        
+class Jogos_API(Model):
+    adversario = F.TextField("Adversário")
+    local = F.TextField("Local")
+    gols_pro = F.NumberField("Gols Pró")
+    gols_contra = F.NumberField("Gols Contra")
+    torneio = F.TextField("Torneio")
+    data_jogo = F.DatetimeField("Data do Jogo")
+    avaliacao = F.RatingField("Avaliação")
+    tecnico = F.SelectField("Técnico")
+    resultado = F.SelectField("Resultado")
+    pontos = F.NumberField("Pontos")
+
+    class Meta:
+        base_id = "appt1Ti26Kq8T2LUq"
+        table_name = "Jogos_API"
+
+        @staticmethod
+        def api_key():
+            return get_secret()        
