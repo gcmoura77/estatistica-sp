@@ -41,3 +41,7 @@ def get_indicadores(df_jogos):
     indicadores['Gols_Sofridos'] = df_jogos["Gols_Contra"].sum()
     
     return indicadores
+
+def media_avaliacao_jogos(df, ano=None):
+    df = df.loc[df["ano"] == ano] if ano else df
+    return df["Avaliação"].mean()

@@ -2,8 +2,10 @@ import streamlit as st
 import streamlit_shadcn_ui as ui
 from datetime import datetime
 from utils.filtro import get_filtro
-from service.jogos import get_indicadores, get_dataframe, get_filtered_dataframe
+from service.jogos import get_indicadores, get_dataframe, get_filtered_dataframe, media_avaliacao_jogos
 from models.jogos import Jogos
+import plotly.graph_objects as go
+from numpy import radians, cos, sin
 
 jogos = Jogos()
 df_jogos = get_dataframe(jogos)
@@ -47,6 +49,7 @@ linha1 = st.columns(5, gap='small')
 linha2 = st.columns(2, gap='medium')
 titulo = st.columns(1)
 linha3 = st.columns(5, gap='medium')
+linha4 = st.columns(1)
 
 primeira_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[0]["Data_do_Jogo"]
 ultima_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[-1]["Data_do_Jogo"]
@@ -105,3 +108,52 @@ for index, row in df_filtrado.sort_values(by='Data_do_Jogo').iloc[-5:].iterrows(
     
     item = item - 1
 
+with linha4[0]:
+    media_avaliacao = round(media_avaliacao_jogos(df_filtrado),2)
+    
+    fig = go.Figure(go.Indicator(
+        mode = "gauge+number",
+        value = media_avaliacao,
+        domain = {'x': [0, 1], 'y': [0, 1]},
+        title = {"text" : "Avaliação A&T", "font": {"size": 32, "color": "black"}},
+        gauge = {'axis': {'range': [None, 5]},
+                'bar': {'color': "gray", "thickness": 0.3, },
+                'bgcolor': "white",
+                'borderwidth': 2,
+                'bordercolor': "gray",
+                'steps': [
+                    {'range': [0, 3], 'color': 'red'},
+                    {'range': [3, 4], 'color': 'yellow'},
+                    {'range': [4, 5], 'color': 'green'},],
+                },))
+    
+    # fig.update_layout(
+    #     xaxis={'showgrid': False, 'showticklabels':False, 'range':[-1,1]},
+    #     yaxis={'showgrid': False, 'showticklabels':False, 'range':[0,1]},
+    #     plot_bgcolor='rgba(0,0,0,0)'
+    #     )
+    
+    # theta = 40
+    # r= 0.4
+    # x_head = r * cos(radians(theta))
+    # y_head = r * sin(radians(theta))    
+    # fig.add_annotation(
+    #     ax=0,
+    #     ay=0,
+    #     axref='x',
+    #     ayref='y',
+    #     x=x_head,
+    #     y=y_head,
+    #     xref='x',
+    #     yref='y',
+    #     showarrow=True,
+    #     arrowhead=3,
+    #     arrowsize=1,
+    #     arrowwidth=4
+    #     )    
+    st.plotly_chart(fig, use_container_width=True)
+    
+    
+
+    
+    

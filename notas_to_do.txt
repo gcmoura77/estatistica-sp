@@ -1,4 +1,5 @@
 
+Rodar Streamlit:
 streamlit run app.py
 
 git add .
@@ -31,6 +32,7 @@ TO-DO:
 - Relação entre Resultado e Notas
 - Relação entre Jogos em Casa e avaliação
 - Histograma de Gols do São Paulo
+- gráfico radar das avaliações
 
 DONE:
 =====
