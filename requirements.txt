@@ -30,7 +30,7 @@ inflection==0.5.1
 ipykernel==6.29.4
 ipython==8.24.0
 jedi==0.19.1
-Jinja2==3.1.4
+Jinja2==3.1.5
 joblib==1.4.2
 jsonschema==4.22.0
 jsonschema-specifications==2023.12.1
