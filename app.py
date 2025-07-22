@@ -1,12 +1,10 @@
 import streamlit as st
 import streamlit_shadcn_ui as ui
 from utils.filtro import get_filtro
-from service.jogos import get_indicadores, get_dataframe, get_filtered_dataframe, media_avaliacao_jogos
-from models.jogos import Jogos
+from service.jogos import get_indicadores, get_filtered_dataframe, media_avaliacao_jogos, get_jogos
 import plotly.graph_objects as go
 
-jogos = Jogos()
-df_jogos = get_dataframe(jogos)
+df_jogos = get_jogos()
 
 # page configuration
 st.set_page_config(
@@ -26,11 +24,11 @@ with st.sidebar:
     temporadas.insert(0, 'Todas')
     temporada = st.selectbox('Informe a temporada', temporadas, index=0)
 
-    torneios = sorted(df_jogos["Torneio"].unique().tolist())
+    torneios = sorted(df_jogos["torneio"].unique().tolist())
     torneios.insert(0, 'Todos')
     torneio = st.selectbox('Informe o torneio', torneios, index=0)
     
-    tecnicos = sorted(df_jogos["Técnico"].unique().tolist())
+    tecnicos = sorted(df_jogos["tecnico"].unique().tolist())
     tecnicos.insert(0, 'Todos')
     tecnico = st.selectbox('Informe o técnico', tecnicos, index=0)
 
@@ -49,8 +47,8 @@ titulo = st.columns(1)
 linha3 = st.columns(5, gap='medium')
 linha4 = st.columns(1)
 
-primeira_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[0]["Data_do_Jogo"]
-ultima_data = df_filtrado.sort_values(by='Data_do_Jogo').iloc[-1]["Data_do_Jogo"]
+primeira_data = df_filtrado.sort_values(by='data_jogo').iloc[0]["data_jogo"]
+ultima_data = df_filtrado.sort_values(by='data_jogo').iloc[-1]["data_jogo"]
 quantidade_dias = abs((ultima_data - primeira_data).days)
 jogos_dias = round(quantidade_dias/indicadores["Total de Jogos"],2)
 
@@ -75,33 +73,33 @@ with linha1[4]:
 
 with linha2[0]:
     st.subheader("Desempenho dos Jogos")
-    resultados = df_filtrado.groupby(["Resultado"]).size()
+    resultados = df_filtrado.groupby(["resultado"]).size()
     st.bar_chart(resultados,color="#FF0000")
 
 with linha2[1]:
     st.subheader("Notas dos Jogos")
-    avaliacao = df_filtrado.groupby(["Avaliação"]).size()
+    avaliacao = df_filtrado.groupby(["nota"]).size()
     st.bar_chart(avaliacao,color="#000000")
 
 with titulo[0]:
     st.subheader("Últimos resultados")    
     
 item = 4
-for index, row in df_filtrado.sort_values(by='Data_do_Jogo').iloc[-5:].iterrows():
-    if row['Local'] == 'Casa':
-        descricao_jogo = 'São Paulo ' + str(row["Gols_Pró"]) + ' x ' + str(row["Gols_Contra"]) + ' ' + row['Adversário']
+for index, row in df_filtrado.sort_values(by='data_jogo').iloc[-5:].iterrows():
+    if row['local'] == 'Casa':
+        descricao_jogo = 'São Paulo ' + str(row["gols_pro"]) + ' x ' + str(row["gols_contra"]) + ' ' + row['adversario']
     else:
-        descricao_jogo = row['Adversário'] + ' ' + str(row["Gols_Contra"]) + ' x ' +  str(row["Gols_Pró"]) + ' São Paulo'
+        descricao_jogo = row['adversario'] + ' ' + str(row["gols_contra"]) + ' x ' +  str(row["gols_pro"]) + ' São Paulo'
     
-    if row["Resultado"] == 'Vitória':
+    if row["resultado"] == 'Vitória':
         cor = 'bg-green-500 text-white inline-flex '
-    elif row["Resultado"] == 'Empate':
+    elif row["resultado"] == 'Empate':
         cor = 'bg-black text-white inline-flex'
     else:
         cor = 'bg-red-500 text-white inline-flex'
     
     with linha3[item]:
-        ui.button(row["Resultado"][0], key="item_"+str(item), class_name=cor)
+        ui.button(row["resultado"][0], key="item_"+str(item), class_name=cor)
         st.caption(descricao_jogo)
     
     item = item - 1

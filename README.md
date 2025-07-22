@@ -5,8 +5,6 @@ Estrutura:
 main_folder/
 - config/
 	- database.py
-- models/
-	- jogos.py
 - service/
 	- jogos.py
 - utils/
@@ -22,3 +20,6 @@ https://airtable.com/create/apikey
 ## Streamlit Shadcn UI
 https://shadcn.streamlit.app/
 pip install streamlit-shadcn-ui
+
+### Para rodar:
+streamlit run app.py

@@ -12,11 +12,11 @@ def get_filtro(temporada, torneio, tecnico, local):
         df_filtro = filtro_aux if len(df_filtro) == 0 else df_filtro + ' & ' + filtro_aux
 
     if tecnico != 'Todos':
-        filtro_aux = f'Técnico == "{tecnico}"'
+        filtro_aux = f'tecnico == "{tecnico}"'
         df_filtro = filtro_aux if len(df_filtro) == 0 else df_filtro + ' & ' + filtro_aux
 
     if len(local) == 1:
-        filtro_aux = f'Local == "{local[0]}"'
+        filtro_aux = f'local == "{local[0]}"'
         df_filtro = filtro_aux if len(df_filtro) == 0 else df_filtro + ' & ' + filtro_aux
     
     return df_filtro
